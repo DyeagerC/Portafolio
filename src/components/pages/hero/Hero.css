@@ -1,0 +1,43 @@
+.row{
+    width: 100%;
+}
+.cont{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.cont-text{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont_hero{
+    background-color: black;
+    color: white;
+    padding-top: 10%;
+    background-image: url("./../../../assets/img/negro.png");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    height: 545px;
+}
+
+.btn_down{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.cont_btn{
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+.btn_down:hover{
+    color: black;
+    background-color: white;
+    transition: .5s all;
+}
+

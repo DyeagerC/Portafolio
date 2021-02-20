@@ -1,0 +1,13 @@
+.card_portfolio{
+    width: 13rem;
+    cursor: pointer;
+}
+
+.link,.link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-3{
+    padding: 0 3%;
+}
