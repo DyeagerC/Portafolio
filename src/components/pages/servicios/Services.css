@@ -1,5 +1,10 @@
 .cont_services{
-    height: 625px;
-    padding-top: 1%;
+    height: max-content;
     text-align: center;
+    margin: 2% 0 2% 0;
 }
+.titleservices{
+    font-size: 2rem;
+    font-weight: inherit;
+}
+

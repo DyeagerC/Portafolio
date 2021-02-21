@@ -1,0 +1,102 @@
+.img_about{
+    width: 100%;
+}
+
+.title_boute{
+    font-size: 2rem;
+    font-weight: inherit;
+    text-align: center;
+}
+
+.rigth_aboutme{
+    text-align: center;
+    color: white;
+    background: rgba(88,24,69,1);
+    background: -moz-linear-gradient(-45deg, rgba(88,24,69,1) 0%, rgba(88,24,69,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(88,24,69,1)), color-stop(45%, rgba(88,24,69,1)), color-stop(45%, rgba(255,255,255,1)), color-stop(69%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(88,24,69,1) 0%, rgba(88,24,69,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(88,24,69,1) 0%, rgba(88,24,69,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(88,24,69,1) 0%, rgba(88,24,69,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(135deg, rgba(88,24,69,1) 0%, rgba(88,24,69,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581845', endColorstr='#ffffff', GradientType=1 );
+}
+
+.cont_texto_about{
+    text-align: start;
+    padding-top: 20px;
+}
+
+.cont_icon{
+    text-align: center;
+    position: absolute;
+    top: 184vh;
+    width: 49%;
+}
+.caja_Skill{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 4rem;
+    color: rebeccapurple;
+}
+
+.html:hover{
+    transition: .2s all;
+    color: #F16529;
+}
+
+.react:hover{
+    transition: .2s all;
+    color: #61DBFB;
+}
+
+.js:hover{
+    transition: .2s all;
+    color:#F0DB4F
+}
+
+.angular:hover{
+    transition: .2s all;
+    color:#dd1b16
+}
+
+.python:hover{
+    transition: .2s all;
+    color: rgba(48,105,152,1);
+}
+
+.php:hover{
+    transition: .2s all;
+    color:#787CB5
+}
+
+@media (max-width: 768px) { 
+    .cont_icon{
+        top: 190vh;
+    }
+
+    .caja_Skill{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 425px) { 
+    .cont_icon{
+        top: 191vh;
+        width: 100%;
+    }
+
+    .caja_Skill{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 320px) { 
+    .cont_icon{
+        top: 191vh;
+        width: 100%;
+    }
+
+    .caja_Skill{
+        font-size: 2rem;
+    }
+}

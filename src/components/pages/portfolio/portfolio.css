@@ -1,6 +1,13 @@
+.cont_portfolio{
+    text-align: center;
+}
 .card_portfolio{
-    width: 13rem;
     cursor: pointer;
+    border: 0px white;
+}
+
+.row_portfolio{
+    height: max-content;
 }
 
 .link,.link:hover{
@@ -8,6 +15,15 @@
     color: black;
 }
 
-.col-md-3{
+.col_portfolio{
     padding: 0 3%;
+    height: max-content;
+}
+
+.title_portfolio{
+    font-size: 2rem;
+    font-weight: inherit;
+}
+.card-body{
+    text-align: start;
 }

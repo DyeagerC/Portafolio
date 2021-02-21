@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Route path="/" component={Index}></Route>
       </Router>
       

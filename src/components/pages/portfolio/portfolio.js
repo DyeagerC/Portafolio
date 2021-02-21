@@ -3,11 +3,11 @@ import "./portfolio.css";
 import kuppel from "./../../../assets/img/kuppel.jfif";
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Hi Portfolio</h1>
-      <div className="row">
-        <div className="col-md-3">
-          <div className="card_portfolio">
+    <div className="cont_portfolio">
+      <span className="title_portfolio">Portfolio</span>
+      <div className="row row_portfolio">
+        <div className="col-md-3 col_portfolio">
+          <div class="card card_portfolio">
             <a href="https://www.kuppel.co/" className="link">
               <img src={kuppel} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -19,8 +19,8 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="card_portfolio">
+        <div className="col-md-3 col_portfolio">
+          <div class="card card_portfolio">
             <a href="https://www.kuppel.co/" className="link">
               <img src={kuppel} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -32,8 +32,8 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="card_portfolio">
+        <div className="col-md-3 col_portfolio">
+          <div class="card card_portfolio">
             <a href="https://www.kuppel.co/" className="link">
               <img src={kuppel} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -45,8 +45,8 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="card_portfolio">
+        <div className="col-md-3 col_portfolio">
+          <div class="card card_portfolio">
             <a href="https://www.kuppel.co/" className="link">
               <img src={kuppel} className="card-img-top" alt="..." />
               <div className="card-body">

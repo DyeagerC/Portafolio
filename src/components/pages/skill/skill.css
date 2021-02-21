@@ -1,30 +1,21 @@
 .cont_skill{
     background-color: black;
     color: white;
-    height: 319px;
+    height: max-content
+}
+.row_skill{
+    height: max-content;
 }
 .caja_Skill{
     width: max-content;
-    padding: 26%;
-    border: 1px solid white;
-    border-radius: 5px;
     background: transparent;
 }
-
-.caja_Skill:hover{
-    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
-}
-
-.row{
-    padding-top: 3%;
-}
-
-.col-md-2{
-    padding-left: 40px;
+.col_Skill{
+    height: max-content;
 }
 
 i{
-    font-size: 4em;
+    font-size: 2rem;
 }
 
 .html:hover{

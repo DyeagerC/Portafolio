@@ -7,8 +7,8 @@ export default function Tarjet() {
   // Administracion base de datos, integracion con diferentes aplicaiones, asesoramiento tecnologico
   return (
     <div className="content_tarjet">
-      <div className="row">
-        <div className="col-md-4">
+      <div className="row row_tarjet">
+        <div className="col-md-4 ">
           <div>
             <div className="card">
               <div className="cont_img">
@@ -16,7 +16,7 @@ export default function Tarjet() {
               </div>
 
               <div className="card-body">
-                <h5 className="card-title">Diseño</h5>
+                <h5 className="card-title card-title-terjet ">Diseño</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -29,7 +29,7 @@ export default function Tarjet() {
                 <FontAwesomeIcon className="card-img-top" icon={faDesktop} size="2x"  />
               </div>
               <div className="card-body">
-                <h5 className="card-title">Administracion</h5>
+                <h5 className="card-title card-title-terjet ">Administracion</h5>
                 <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -38,13 +38,13 @@ export default function Tarjet() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 ">
           <div className="card">
             <div className="cont_img">
               <FontAwesomeIcon className="card-img-top" icon={faDesktop} size="2x" />
             </div>
             <div className="card-body">
-              <h5 className="card-title">Desarrollo</h5>
+              <h5 className="card-title card-title-terjet ">Desarrollo</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -57,7 +57,7 @@ export default function Tarjet() {
               <FontAwesomeIcon className="card-img-top" icon={faDesktop} size="2x" />
             </div>
             <div className="card-body">
-              <h5 className="card-title">Bases de Datos</h5>
+              <h5 className="card-title card-title-terjet ">Bases de Datos</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -65,13 +65,13 @@ export default function Tarjet() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 ">
           <div className="card">
             <div className="cont_img">
               <FontAwesomeIcon className="card-img-top" icon={faDesktop} size="2x" />
             </div>
             <div className="card-body">
-              <h5 className="card-title">Integraciones</h5>
+              <h5 className="card-title card-title-terjet ">Integraciones</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -83,7 +83,7 @@ export default function Tarjet() {
               <FontAwesomeIcon className="card-img-top" icon={faDesktop} size="2x" />
             </div>
             <div className="card-body">
-              <h5 className="card-title">Asesoramiento</h5>
+              <h5 className="card-title card-title-terjet ">Asesoramiento</h5>
               <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.

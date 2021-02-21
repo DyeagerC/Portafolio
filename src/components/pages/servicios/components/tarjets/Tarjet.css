@@ -1,15 +1,22 @@
+.row_tarjet{
+    margin: 0px;
+    padding: 0px;
+    height: max-content;
+}
 .content_tarjet{
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .card{
    padding: 3%;
-    border: 0px;
+   border: 0px;
+   border: 1px solid #581845;
+   margin-top: 20px;
 
 }
 
 .cont_img{
-    background-color: blue;
+    background-color: #581845;
     color: white;
     border-radius: 50%;
     width: 80px;
@@ -19,6 +26,26 @@
     left: 42%;
 }
 
-.card-title{
+.card-title-terjet{
     font-size: 2em;
+}
+
+@media (max-width: 769px) { 
+    .card-title-terjet{
+        font-size: 1.6em;
+    }
+
+    .cont_img{
+        left: 31%;
+    }
+}
+
+@media (max-width: 769px) { 
+    .card-title-terjet{
+        font-size: 1.6em;
+    }
+
+    .cont_img{
+        left: 40%;
+    }
 }
