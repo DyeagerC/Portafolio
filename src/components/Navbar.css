@@ -1,4 +1,55 @@
-.navbar {
+.cont_menu{
+    position: absolute;
+    width: 100%;
+}
+.menu_letra{
+    height: max-content;
+}
+
+.row_menu{
+    height: max-content !important;
+}
+
+.li_nav{
+    display: inline-block;
+    padding: 0 0 0 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.cont_nav_i{
+    height: max-content;
+    color: white;
+    font-size: 2rem;
+    width: max-content;
+    display: inline-block;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+
+.nav_menu{
+    height: 45px;
+    line-height: 60px;
+    width: max-content;
+    display: inline-block;
+    position: absolute;
+    left: -330px;
+}
+
+.ul_menu{
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 45px;
+}
+
+.show{
+    transition: .5s all;
+    left: 30px;
+}
+
+
+/* .navbar {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
     height: 80px;
     display: flex;
@@ -198,4 +249,4 @@ ul.show{
         
         line-height: 30px;
     }
-}
+} */
